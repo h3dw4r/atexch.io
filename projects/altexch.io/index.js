@@ -1,6 +1,6 @@
 const TempMail = require('temp-mail')
 const puppeteer = require('puppeteer')
-const referalLink = 'http://altexch.io?ref=94948'
+const referalLink = 'http://altexch.io?ref=279097'
 
 const tmpMail = new TempMail;
 const nodeText = node => node.innerHTML.toLowerCase();
