@@ -9,7 +9,7 @@ const delay = ms => new Promise(rs => setTimeout(rs, ms));
 const pass = 'Password_123321';
 
 /**
- * 1. https://altexch.io/?ref=94948
+ * 1. http://altexch.io?ref=279097
  * 2. $('#email').val('pasat@1blackmoon.com').next(':submit').click()
  * 3. $('h2').text().toLowerCase() == 'registration'
  *    $('h4').text().toLowerCase() == "we have sent you email verification link.check your email inbox/spam folder and follow the link."
@@ -128,6 +128,5 @@ let scrape = async () => {
     console.log('###');
     return isAuthenticated;
 };
-
 
 module.exports = scrape;
